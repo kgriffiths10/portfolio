@@ -1,0 +1,60 @@
+{
+    "devProjects": [
+        {
+            "title": "MONOPOLY BANKER",
+            "featuredTech": ["JAVASCRIPT", "HTML", "CSS"],
+            "description": "The Monopoly Game project is a digital version of the classic board game, developed using JavaScript and object-oriented programming principles. This project includes core game mechanics, player management, and automated banker functionalities, all within a browser-based interface. The game handles player turns, property management, transactions, and integrates a user-friendly interface to ensure an engaging gameplay experience.",
+            "link": "https://github.com/kgriffiths10/monopoly-banker/tree/main/monopoly-game"
+        },
+        {
+            "title": "PORTFOLIO SLIDER",
+            "featuredTech": ["SLICKJS", "JAVASCRIPT", "HTML", "CSS"],
+            "description": "The Portfolio Slider Example project showcases a responsive and interactive image slider designed for portfolio websites. Utilizing SlickJS for smooth and customizable transitions, this project highlights multiple portfolio items with an intuitive thumbnail navigation. The implementation includes custom styling and functionality to ensure seamless user experience across different devices.",
+            "link": "https://github.com/kgriffiths10/portfolio-slider-example"
+        },
+        {
+            "title": "PIXELATED SIDEBAR MENU",
+            "featuredTech": ["JAVASCRIPT", "HTML", "CSS"],
+            "description": "The Pixelated Sidebar Menu project features a unique, visually engaging sidebar menu with a pixelated animation effect. Designed to enhance the aesthetic appeal of web applications, this project utilizes JavaScript for dynamic interactions and CSS for intricate pixelated transitions. The menu is fully responsive, ensuring a consistent and captivating user experience on all devices.",
+            "link": "https://github.com/kgriffiths10/pixelated-sidebar-menu"
+        },
+        {
+            "title": "SYSTEM PROGRAMMING",
+            "featuredTech": ["C", "ASSEMBLY"],
+            "description": "This repository contains a series of laboratory exercises and assignments for the System Programming course (CS216). The labs focus on fundamental concepts of system programming using Assembly language and C. Each lab aims to develop a deep understanding of low-level programming, memory management, and system-level operations.",
+            "link": "https://github.com/kgriffiths10/cs216"
+        },
+        {
+            "title": "WINFORMS PAINT PROGRAM",
+            "featuredTech": ["C#", "WINFORMS", "SVG.NET"],
+            "description": "A paint program built using Winforms and the SVG.NET library to edit and draw shapes. Start a project on a blank canvas or open an existing PNG file to begin drawing. The application supports various tools including rectangles, circles, lines, paint, eraser, fill, clear, undo, and redo. Projects can be saved, exported, or printed.",
+            "link": "https://github.com/kgriffiths10/CS321_Final-1-"
+        }
+    ],
+    "uiuxProjects": [
+        {
+            "title": "HOME SERVICE WEB APP",
+            "featuredTech": ["FIGMA", "UI DESIGN", "PROTOTYPING"],
+            "description": "This web app is designed to bridge the gap between homeowners and service contractors, offering a streamlined platform for job requests and contractor bids. It features a clean, intuitive interface for browsing contractor portfolios, reading reviews, and managing project briefs. Key functionalities include a dynamic search feature, an easy-to-use bid submission system, and a responsive design that ensures a seamless experience across devices. The design focuses on enhancing user interaction and simplifying the process of finding and hiring contractors.",
+            "link": "https://dribbble.com/shots/24771089-Professional-Home-Service-Web-Design"
+        },
+        {
+            "title": "SENIOR LIVING UI",
+            "featuredTech": ["FIGMA", "HTML5", "CSS3", "INTERACTIVE UI COMPONENTS"],
+            "description": "This website design focuses on creating an inviting and accessible online experience for senior living communities. It features a user-friendly interface tailored to the needs of seniors and their families, including easy navigation and clear information about services. The design incorporates warm colors and accessible fonts to enhance readability and user comfort. Key elements include a comprehensive overview of living options, amenities, resident testimonials, and contact information, all optimized for both desktop and mobile devices.",
+            "link": "https://dribbble.com/shots/24059732-Senior-Living-Website-Design"
+        },
+        {
+            "title": "BRIGG & TOM UI/UX",
+            "featuredTech": ["FIGMA", "HTML5", "CSS3"],
+            "description": "This website design is crafted for Brigg & Tom, focusing on delivering a modern and professional online presence. The design highlights the brand’s unique identity with a sleek, contemporary layout that emphasizes usability and visual appeal. It features a well-organized homepage, clear navigation, and sections for showcasing services, portfolio, and client testimonials. The design ensures a responsive experience across all devices, incorporating interactive elements and a clean aesthetic to engage visitors effectively.",
+            "link": "https://dribbble.com/shots/24259263-Brigg-Tom-Website-Design"
+        },
+        {
+            "title": "AGRICULTURAL TECHNOLOGY",
+            "featuredTech": ["FIGMA"],
+            "description": "This landing page is crafted for a modern agricultural technology company, highlighting innovative solutions and cutting-edge advancements in the industry. The design emphasizes a clean, professional look with a focus on showcasing key features and benefits of the technology.",
+            "link": "https://dribbble.com/shots/24343290-Agricultural-Web-Design"
+        }
+    ]
+}

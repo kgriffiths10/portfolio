@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <!-- Slick JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="slider.js"></script>
+
+    <!-- Lenis & GSAP Smooth Scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@latest/dist/lenis.min.js"></script>
+    <script src="smooth-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    
+    <!-- Light Cursor Effect -->
+    <script src="light.js"></script>
+    
+</head>
+
+<body>
+    <div class="light"></div>
+
+    <section id="hero-section">
+        <div class="section-container-large">
+            <header>
+                <h2>KATYA GRIFFITHS-JULIEN</h2>
+            </header>
+            <div class="hero-container">
+                <div class="hero-heading">
+                    <h1>DIGITAL<br>BUILDER</h1>
+                    <h2>&lt; ONE <span>PIXEL</span> AT A TIME &gt;</h2>
+    
+                </div>
+                <div class="hero-menu">
+                    <div class="highlighted-subheading">
+                        <h4><a href="#about-section">ABOUT THE BUILDER</a></h4>
+                    </div>
+                    <div class="highlighted-subheading">
+                        <h4><a href="#education-section">EDUCATION</a></h4>
+                    </div>
+                    <div class="highlighted-subheading">
+                        <h4><a href="#dev-projects-section">DEV PROJECTS</a></h4>
+                    </div>
+                    <div class="highlighted-subheading">
+                        <h4><a href="#uiux-projects-section">UI/UX PROJECTS</a></h4>
+                    </div>
+                    <div class="highlighted-subheading">
+                        <h4><a href="#contact-section">LET'S CONNECT</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about-section">
+        <div class="section-container-large">
+            <div class="section-heading">
+                <h3>ABOUT THE BUILDER</h3>
+            </div>
+            <div class="section-content-container">
+                <!-- INTRO -->
+                <div class="section-content">
+                    <div class="highlighted-subheading">
+                        <h4>NICE TO MEET YOU!</h4>
+                    </div>
+                    <p> I'm Katya Griffiths-Julien, a recent graduate with dual Bachelor’s degrees in Computer Science and Neuroscience. 
+                        My interdisciplinary background provides a strong foundation in both technical and analytical skills, allowing me 
+                        to approach challenges with a unique perspective. I’ve also earned certifications in Full Stack Software Development, 
+                        and UX Design from industry leaders, further honing my expertise. This combination of education 
+                        and hands-on training equips me to excel in software engineering and UI/UX design, where I’m passionate about crafting 
+                        innovative, user-centered solutions.
+                    </p>
+                </div>  
+
+                <!-- DEVELOPMENT SKILLS -->
+                <div class="section-content">
+                    <div class="highlighted-subheading">
+                        <h4>DEVELOPMENT SKILLS</h4>
+                    </div>
+                    <div class="subcontent">
+                        <div class="education-content">
+                            <h4 class="education-title">PROGRAMMING LANGUAGES</h4>
+                            <p class="education-descritpion">Javascript, Python, C#, C++, SQL</p>
+                        </div>
+                        <div class="education-content">
+                            <h4 class="education-title">FRONTEND DEVELOPMENT</h4>
+                            <p class="education-descritpion">HTML/CSS, React, Bootstrap, Tailwind, SASS</p>
+                        </div>
+                        <div class="education-content">
+                            <h4 class="education-title">BACKEND DEVELOPMENT</h4>
+                            <p class="education-descritpion">Node.js, Express.js, Django, PHP</p>
+                        </div>
+                        <div class="education-content">
+                            <h4 class="education-title">DATABASES</h4>
+                            <p class="education-descritpion">MySQL, PostgresSQL, MongoDB</p>
+                        </div>
+                        <div class="education-content">
+                            <h4 class="education-title">API'S</h4>
+                            <p class="education-descritpion">RESTful APIs, GraphQL, JSON</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <!-- DESIGN SKILLS -->
+                <div class="section-content">
+                    <div class="highlighted-subheading">
+                        <h4>DESIGN SKILLS</h4>
+                    </div>
+                    <div class="subcontent">
+                        <div class="education-content">
+                            <h4 class="education-title">UI/UX DESIGN</h4>
+                            <p class="education-descritpion">Figma, Adobe XD, Wireframing, Prototyping, User Research </p>
+                        </div>
+                        <div class="education-content">
+                            <h4 class="education-title">RESPONSIVE DESIGN</h4>
+                            <p class="education-descritpion">Mobile-First, Cross-Device Optimization</p>
+                        </div>
+                        <div class="education-content">
+                            <h4 class="education-title">DESIGN SYSTEMS</h4>
+                            <p class="education-descritpion">Style Guides, Component Libraries</p>
+                        </div>
+                        <div class="education-content">
+                            <h4 class="education-title">INFORMATION ARCHITECTURE</h4>
+                            <p class="education-descritpion">Content Structuring</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education-section">
+        <div class="section-container-large">
+            <div class="section-heading">
+                <h3>EDUCATION</h3>
+            </div>
+            <div class="section-content-container">
+                
+                <!-- UNIVERSITY -->
+                <div class="section-content">
+                    <div class="highlighted-subheading">
+                        <h4>UNIVERSITY</h4>
+                    </div>
+                    <div class="subcontent">
+                        <div class="education-content">
+                            <h4 class="education-title">BSC. COMPUTER SCIENCE</h4>
+                            <p class="education-description">Bishop's University</p>
+                            <p class="education-description">2021-2024</p>
+
+                        </div>
+                        <div class="education-content">
+                            <h4 class="education-title">BSC. NEUROSCIENCE</h4>
+                            <p class="education-description">Bishop's University</p>
+                            <p class="education-description">2019-2024</p>                        </div>
+                    </div>
+                </div>
+                
+                <!-- CEGEP -->
+                <div class="section-content"> 
+                    <div class="highlighted-subheading">
+                        <h4>CEGEP (QUEBEC)</h4>
+                    </div>
+                    <div class="subcontent">
+                        <div class="education-content">
+                            <h4 class="education-title">DEC SOCIAL SCIENCES</h4>
+                            <p class="education-description">Champlain College Lennoville</p>
+                            <p class="education-description">2017-2019</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROFESSIONAL CERTIFICATIONS -->
+                <div class="section-content"> 
+                    <div class="highlighted-subheading">
+                        <h4>CERTIFICATIONS</h4>
+                    </div>
+                    <div class="subcontent">
+                        <div class="education-content">
+                            <h4 class="education-title">FRONTEND & BACKEND DEVELOPER PROFESSIONAL CERTIFICATE</h4>
+                            <p class="education-description">Meta</p>
+                        </div>
+                        <div class="education-content">
+                            <h4 class="education-title">FULLSTACK SOFTWARE DEVELOPER PROFESSIONAL CERTIFICATE</h4>
+                            <p class="education-description">IBM</p>
+                        </div>
+                        <div class="education-content">
+                            <h4 class="education-title">DATABASE ENGINEER PROFESSIONAL CERTIFICATE</h4>
+                            <p class="education-description">Meta</p>
+                        </div>
+                        <div class="education-content">
+                            <h4 class="education-title">UX DESIGN PROFESSIONAL CERTIFICATE</h4>
+                            <p class="education-description">Google</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dev-projects-section">
+        <div class="section-container-large">
+            <h3>DEV PROJECTS</h3>
+            <div class="section-content-container">
+                <div class="thumbnail-slider"></div>
+                <div class="main-slider"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="uiux-projects-section">
+        <div class="section-container-large">
+            <h3>UI/UX PROJECTS</h3>
+            <div class="section-content-container">
+                <div class="thumbnail-slider"></div>
+                <div class="main-slider"></div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact-section">
+        <div class="section-container-large">
+            <div class="section-heading">
+                <h3>LET'S CONNECT</h3>
+            </div>
+            <div class="section-content-container">
+    
+                <!-- OUTRO -->
+                <div class="section-content">
+                    <div class="highlighted-subheading">
+                        <h4>HOW CAN I HELP?</h4>
+                    </div>
+                    <p>I'm always on the lookout for exciting opportunities where I can 
+                        leverage my skills in software engineering and UI/UX design to 
+                        make a meaningful impact. If you’re looking for someone who can 
+                        blend technical expertise with creative problem-solving, let’s connect!
+                    </p>
+                </div>  
+    
+                <!-- PROFILE LINKS -->
+                <div class="section-content">
+                    <div class="highlighted-subheading">
+                        <h4>WHERE TO FIND ME</h4>
+                    </div>
+                    <div class="subcontent">
+                        <div class="education-content">
+                            <h4 class="education-title">EMAIL</h4>
+                            <p class="education-descritpion">
+                                <a href="mailto:katya.griffithsjulien@gmail.com">katya.griffithsjulien@gmail.com</a>
+                            </p>
+                        </div>
+                        <div class="education-content">
+                            <h4 class="education-title">LINKEDIN</h4>
+                            <p class="education-descritpion">
+                                <a href="https://www.linkedin.com/in/katya-griffiths-julien-629357257/" target="_blank" rel="noopener noreferrer">
+                                    https://www.linkedin.com/in/katya-griffiths-julien-629357257/
+                                </a>
+                            </p>
+                        </div>
+                        <div class="education-content">
+                            <h4 class="education-title">GITHUB</h4>
+                            <p class="education-descritpion">
+                                <a href="https://github.com/kgriffiths10" target="_blank" rel="noopener noreferrer">
+                                    https://github.com/kgriffiths10
+                                </a>
+                            </p>
+                        </div>
+                        <div class="education-content">
+                            <h4 class="education-title">DRIBBBLE</h4>
+                            <p class="education-descritpion">
+                                <a href="https://dribbble.com/KatyaGJulien" target="_blank" rel="noopener noreferrer">
+                                    https://dribbble.com/KatyaGJulien
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+
+    
+</body>
+</html>
