@@ -242,7 +242,8 @@ section {
         list-style: none;
         padding: 0;
         display: flex;
-        gap: 2rem;
+        flex-flow: row wrap;
+        gap: 0rem;
     }
 
     .featured-tech-list li {
