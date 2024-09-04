@@ -231,6 +231,7 @@ section {
         font-family: $paragraph-font;
         font-weight: 200;
         color: white;
+
     }
 
     article {
@@ -240,9 +241,9 @@ section {
     .featured-tech-list {
         list-style: none;
         padding: 0;
-        margin: 0 0 1.5rem;
         display: flex;
-        gap: 2rem;
+        flex-flow: row wrap;
+        gap: 0rem;
     }
 
     .featured-tech-list li {
@@ -250,6 +251,8 @@ section {
         color: white;
         font-family: $heading-font;
         font-weight: 800;
+        margin-right: 2rem; // Adjust the spacing between items in the same row
+        margin-bottom: 0rem; // Adjust the spacing between rows
     }
 
     .description {
@@ -257,7 +260,8 @@ section {
         font-weight: 200;
         color: white;
         width: 75%;
-        margin: 0 0 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
     }
 
     .project-link {
