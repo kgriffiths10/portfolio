@@ -1,4 +1,4 @@
-
+// Cursor light effect
 document.addEventListener('mousemove', (event) => {
     const light = document.querySelector('.light');
     const { clientX: x, clientY: y } = event;
