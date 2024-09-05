@@ -7,7 +7,7 @@ $heading-font: 'Saira Semi Condensed', sans-serif;
 $paragraph-font: 'JetBrains Mono', sans-serif;
 
 
-body {
+body, html {
     font-family: $paragraph-font;
     background-color: $secondary-color;
     margin: 0;
@@ -181,7 +181,7 @@ section {
     }
 
 
-    .thumbnail-slider .slick-list{
+    #dev-projects-section .thumbnail-slider .slick-list, #uiux-projects-section .thumbnail-slider .slick-list {
         overflow: hidden;
     }
 

@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
-body {
+body, html {
   font-family: "JetBrains Mono", sans-serif;
   background-color: #0D2111;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .light {
@@ -156,9 +157,10 @@ section {
   width: 100%;
   margin-bottom: 1rem;
 }
-#dev-projects-section .thumbnail-slider .slick-list,
-#uiux-projects-section .thumbnail-slider .slick-list {
-  overflow: visible;
+#dev-projects-section #dev-projects-section .thumbnail-slider .slick-list, #dev-projects-section #uiux-projects-section .thumbnail-slider .slick-list,
+#uiux-projects-section #dev-projects-section .thumbnail-slider .slick-list,
+#uiux-projects-section #uiux-projects-section .thumbnail-slider .slick-list {
+  overflow: hidden;
 }
 #dev-projects-section .thumbnail-slider .slick-slide,
 #uiux-projects-section .thumbnail-slider .slick-slide {
